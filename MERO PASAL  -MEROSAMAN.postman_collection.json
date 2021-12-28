@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "422d66c2-3b61-4408-ba90-00db98fcb869",
+		"name": "MERO PASAL  -MEROSAMAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Authentication",
+					"item": [
+						{
+							"name": "http://localhost:8080/api/auth/user",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"ruainpro@gmail.com\",\n  \"password\":\"user145\",\n  \"fullname\":\"rupesh chaulagin\",\n  \"phone\":\"9843099011\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/auth/user/signup",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"auth",
+										"user",
+										"signup"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Logiin",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"ruainpro@gmail.com\",\n  \"password\":\"user145\",\n  \"fullname\":\"rupesh chaulagin\",\n  \"phone\":\"9843099011\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/auth/user/signin",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"auth",
+										"user",
+										"signin"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
