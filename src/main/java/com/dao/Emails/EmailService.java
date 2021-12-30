@@ -32,13 +32,16 @@ public class EmailService {
 
 			String templateContent = FreeMarkerTemplateUtils
 					.processTemplateIntoString(freemarkerConfig.getConfiguration()
-							.getTemplate("/email/welcome.ftl"),
+							.getTemplate("/email/ConfirmationEmail.ftl"),
 							emailDTO.getEmailData());
 
-			helper.addInline("MEROSAMAN.PNG", new ClassPathResource("MEROSAMAN.PNG"));
+			 ClassPathResource clr = new ClassPathResource("Freefiles/images/aa.jpg");
+
+			 helper.addInline("MEROSAMAN", clr, "image/jpg");
+//			helper.addInline("MEROSAMAN.png", new ClassPathResource("/Freefiles/images/MEROSAMAN.png"));
 //	        helper.addAttachment("logofile.png", new ClassPathResource("logo.png"));
 
-	        helper.addAttachment("MEROSAMAN.png", new ClassPathResource("MEROSAMAN.png"));
+//	        helper.addAttachment("Com4.png", new ClassPathResource("Com4.png"));
 			helper.setTo(emailDTO.getTo());
 			helper.setSubject(emailDTO.getSubject());
 			helper.setText(templateContent, true);

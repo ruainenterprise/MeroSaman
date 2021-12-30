@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@ResponseBody
+//@ResponseBody
 @RequestMapping("/testMe")
 public class TestController {
 
@@ -15,7 +15,7 @@ public class TestController {
  
     @GetMapping()
     public 	String getTreeById() {
-        return "welcome.ftlh" ;
+        return "welcome.html" ;
     }
   
 

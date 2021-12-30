@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -13,6 +12,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="x-apple-disable-message-reformatting">
+   <meta name="robots" content="noarchive">
   <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
   <title></title>
   
@@ -120,7 +120,7 @@ a[x-apple-data-detectors='true'] {
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src="https://drive.google.com/file/d/1HjMV4D3wuRhtlSE2AvgkioevqX9zuvSR/view?usp=sharing" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 160px;" width="160"/>
+      <img align="center" border="0" src="images/image-4.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 160px;" width="160"/>
       
     </td>
   </tr>
@@ -393,11 +393,9 @@ a[x-apple-data-detectors='true'] {
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src="MEROSAMAN.png" alt="" title="" style="outline: none;text-decoration: none;
+      <img align="center" border="0" src="http://localhost:8080/Freefiles/images/MEROSAMAN.png" alt="MEROSAMAN.png"  data-th-src="|MEROSAMAN|" title="" style="outline: none;text-decoration: none;
       -ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;
       width: 550px;max-width: 550px;" width="550px"/>
-      <img src="cid:MEROSAMAN.png" alt="https://memorynotfound.com" style="display: block;" />
-      
     </td>
   </tr>
 </table>
