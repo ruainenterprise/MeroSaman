@@ -45,6 +45,10 @@ uniqueConstraints = {
 })
 @NamedQuery(name = "User.findAllInc", query = UserQuery.UserfindAllInc)
 
+
+// Update
+@NamedQuery(name = "User.updateTempValueaAndAccountStatus", query = UserQuery.UserfindAllInc)
+
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
@@ -78,8 +82,12 @@ public class UserEntity implements Serializable{
 	private String password;
 	
     @Column
-	private boolean deleteStatus;
+	private int accountStatus;
 	
+    @Column
+    private String tempValue;
+    
+    
 	@OneToOne
 	@JoinColumn(name = "address_Id")
 	private UserAddress userAddress;

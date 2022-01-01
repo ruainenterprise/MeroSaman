@@ -1,6 +1,9 @@
 package com.dao;
 
+import java.sql.Date;
+import java.sql.Timestamp;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,25 +30,7 @@ public class MeropasalApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		System.out.println("###### Email sending initiated ######");
-
-		EmailDTO email = new EmailDTO();
-
-		email.setTo("ruainenterprise@gmail.com");
-		email.setSubject("Welcome Letter via Spring Boot + FreeMarker");
-
-		// Populate the template data
-		Map<String, Object> templateData = new HashMap<>();
-		templateData.put("name", "Atul Rai");
-		// List of team members...
-		List<String> teamMembers = Arrays.asList("Tendulkar", "Manish", "Dhirendra");
-		templateData.put("teamMembers", teamMembers);
-		templateData.put("location", "India");
-		email.setEmailData(templateData);
-
-		// Calling email service
-		emailService.sendWelcomeEmail(email);
-		
 	}
+
 
 }

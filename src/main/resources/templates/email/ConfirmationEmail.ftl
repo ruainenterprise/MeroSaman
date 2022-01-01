@@ -234,9 +234,9 @@ a[x-apple-data-detectors='true'] {
       <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
         
   <div style="color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
-    <p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="color: #000000; font-size: 14px; line-height: 19.6px;"><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">Hello ${name},</span></strong></span></p>
+    <p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="color: #000000; font-size: 14px; line-height: 19.6px;"><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">Hello ${email},</span></strong></span></p>
 <p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="color: #000000; font-size: 14px; line-height: 19.6px;"><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">We have sent email to confirm </span></strong><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">the validity of our email address.</span></strong></span></p>
-<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="color: #000000; font-size: 14px; line-height: 19.6px;"><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">After receicing the email follow</span></strong><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">the link provided to complete you </span></strong></span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="color: #000000; font-size: 14px; line-height: 19.6px;"><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">After receiving the email follow</span></strong><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">the link provided to complete you </span></strong></span></p>
 <p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="color: #000000; font-size: 14px; line-height: 19.6px;"><strong><span style="font-family: Cabin, sans-serif; line-height: 19.6px; font-size: 14px;">registration.</span></strong></span></p>
   </div>
 
@@ -273,8 +273,8 @@ a[x-apple-data-detectors='true'] {
         
 <div align="center">
   <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;font-family:arial,helvetica,sans-serif;"><tr><td style="font-family:arial,helvetica,sans-serif;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:41px; v-text-anchor:middle; width:163px;" arcsize="10%" stroke="f" fillcolor="#ff0000"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
-    <a href="" target="_blank" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #ff0000; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
-      <span style="display:block;padding:12px 40px;line-height:120%;"><strong><span style="font-size: 14px; line-height: 16.8px; font-family: Lato, sans-serif;">Confirmation</span></strong></span>
+    <a href="${projectConfirmaton}" target="_blank" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #ff0000; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
+      <span style="display:block;padding:12px 40px;line-height:120%;" ><strong><span style="font-size: 14px; line-height: 16.8px; font-family: Lato, sans-serif;" >Confirmation</span></strong></span>
     </a>
   <!--[if mso]></center></v:roundrect></td></tr></table><![endif]-->
 </div>
